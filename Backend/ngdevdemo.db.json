@@ -11,16 +11,6 @@
       "id": 6
     },
     {
-      "nome": "BaladinhadoPeliza",
-      "preco": "5.50",
-      "id": 7
-    },
-    {
-      "nome": "PelizaRoger",
-      "preco": "1000",
-      "id": 8
-    },
-    {
       "nome": "Badadinha do Zé",
       "preco": "1000",
       "id": 9
@@ -47,13 +37,23 @@
     },
     {
       "nome": "Badadinha do Zé",
-      "preco": "5000",
-      "id": 18
+      "preco": "1000",
+      "id": 19
     },
     {
       "nome": "Bar do Tonho",
-      "preco": "1000",
-      "id": 19
+      "preco": "5000",
+      "id": 20
+    },
+    {
+      "nome": "BaladinhadoPeliza",
+      "preco": "5000",
+      "id": 21
+    },
+    {
+      "nome": "Badadinha do Zé",
+      "preco": "6,50",
+      "id": 22
     }
   ]
 }

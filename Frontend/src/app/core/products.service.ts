@@ -20,8 +20,12 @@ export class ProductsService {
     return this.http.post<Product>(this.URL,product)
   }
 
-  getById(id: number): Observable<Product> {
+  getById(id: any): Observable<Product> {
     return this.http.get<Product>(`${this.URL}/${id}`)
+  }
+
+  deleteProduct(id: number): Observable<Product>  {
+    return this.http.delete<Product>(`${this.URL}/${id}`)
   }
 
   /*deleteProduct(id: number): Observable<Product> {

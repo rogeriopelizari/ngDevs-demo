@@ -31,6 +31,7 @@ export class CreateProductComponent implements OnInit {
     const product = this.productForm.value;
 
     this.productService.criar(product).subscribe(data => {
+      alert("Adicionado com sucesso!")
       this.router.navigate(['/product']);
     })
   }
