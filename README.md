@@ -1,6 +1,6 @@
 # ngDevs-demo
 
-<p align="left">
+<p align="center">
 <img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/dashboard.png" width="250" title="Dashboard">
 <img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/product.png" width="250" title="Crud-Product">
 <img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/add-product.png" width="250" title="Add-Product">
