@@ -1,59 +1,29 @@
 {
   "produto": [
     {
-      "nome": "Rogério",
-      "preco": "1000",
-      "id": 2
-    },
-    {
-      "nome": "Bar do Tonho",
-      "preco": "5.50",
-      "id": 6
-    },
-    {
-      "nome": "Badadinha do Zé",
-      "preco": "1000",
-      "id": 9
-    },
-    {
-      "nome": "Bar do Tonho",
-      "preco": "1000",
-      "id": 10
-    },
-    {
-      "nome": "BaladinhadoPeliza",
-      "preco": "6,50",
-      "id": 13
-    },
-    {
-      "nome": "BaladinhadoPeliza",
-      "preco": "5000",
-      "id": 15
-    },
-    {
-      "nome": "Bar do Tonho",
-      "preco": "500",
-      "id": 17
-    },
-    {
-      "nome": "Badadinha do Zé",
-      "preco": "1000",
-      "id": 19
-    },
-    {
-      "nome": "Bar do Tonho",
-      "preco": "5000",
-      "id": 20
-    },
-    {
-      "nome": "BaladinhadoPeliza",
-      "preco": "5000",
-      "id": 21
-    },
-    {
       "nome": "Badadinha do Zé",
       "preco": "6,50",
       "id": 22
+    },
+    {
+      "nome": "BaladinhadoPeliza",
+      "preco": "8,50",
+      "id": 23
+    },
+    {
+      "nome": "Bar do Tonho",
+      "preco": "6,50",
+      "id": 24
+    },
+    {
+      "nome": "Badadinha do Zé",
+      "preco": "8,50",
+      "id": 25
+    },
+    {
+      "nome": "BaladinhadoPeliza",
+      "preco": "5,50",
+      "id": 26
     }
   ]
 }
