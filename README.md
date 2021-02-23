@@ -1,9 +1,9 @@
 # ngDevs-demo
 
 <p align="center">
-<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/dashboard.png">
-<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/product.png">
-<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/add-product.png">
-<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/delete-product.png">
-<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/backend-jsonserver.png">
+<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/dashboard.png" width="200" title="Dashboard">
+<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/product.png" width="200" title="Crud-Product">
+<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/add-product.png" width="200" title="Add-Product">
+<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/delete-product.png" width="200" title="Delete-Product">
+<img src="https://github.com/rogeriopelizari/ngDevs-demo/blob/master/.github/previews/backend-jsonserver.png" width="200" title="Backend-JsonServer">
 </p>
