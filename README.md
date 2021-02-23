@@ -1,9 +1,9 @@
 # ngDevs-demo
 
 <p align="center">
-! [Dashboard] (../master/.github/previews/dashboard.png)
-! [Crud-Product] (../master/.github/previews/product.png)
-! [Add-Product]  (../master/.github/previews/add-product.png)
-! [Delete-Product]  (../master/.github/previews/delete-product.png)
-! [JsonServer]  (../master/.github/previews/backend-jsonserver.png)
+! [Dashboard] (.github/previews/dashboard.png)
+! [Crud-Product] (.github/previews/product.png)
+! [Add-Product]  (.github/previews/add-product.png)
+! [Delete-Product]  (.github/previews/delete-product.png)
+! [JsonServer]  (.github/previews/backend-jsonserver.png)
 </p>
