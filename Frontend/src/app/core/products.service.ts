@@ -1,7 +1,10 @@
-import { Product } from './../model/product';
 import { Injectable } from '@angular/core';
+import { MatSnackBar } from "@angular/material/snack-bar";
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Product } from './../model/product';
+import { Observable, EMPTY } from 'rxjs';
+import { map, catchError } from "rxjs/operators";
+
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +16,7 @@ export class ProductsService {
   constructor(private http: HttpClient) { }
 
   read(): Observable<Product[]>  {
-    return this.http.get<Product[]>(this.URL);
+    return this.http.get<Product[]>(this.URL)
   }
 
   criar(product: Product): Observable<Product> {
@@ -28,7 +31,9 @@ export class ProductsService {
     return this.http.delete<Product>(`${this.URL}/${id}`)
   }
 
-  /*deleteProduct(id: number): Observable<Product> {
-    return this.http.delete<Product>(`${this.URL}/${id}`)
-  }*/
+  update(product: Product): Observable<Product> {
+    const url = `${this.URL}/${product.id}`;
+    return this.http.put<Product>(url, product);
+  }
+
 }

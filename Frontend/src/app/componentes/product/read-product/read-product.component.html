@@ -19,7 +19,7 @@
   <ng-container matColumnDef="action">
     <th mat-header-cell *matHeaderCellDef> Ações </th>
     <td mat-cell *matCellDef= "let element">
-      <a (click)= "editar(element.id)">
+      <a routerLink="edit/{{ element.id }}">
         <i class="material-icons edit">edit</i>
       </a>
       <a routerLink="delete/{{ element.id }}">

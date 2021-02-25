@@ -1,3 +1,4 @@
+import { EditProductComponent } from './componentes/product/edit-product/edit-product.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductCrudComponent } from './componentes/product/product-crud/product-crud.component';
@@ -21,6 +22,10 @@ const routes: Routes = [
       {
         path: 'delete/:id',
         component: ProductDeleteComponent
+      },
+      {
+        path: 'edit/:id',
+        component: EditProductComponent
       }
   ]
   }

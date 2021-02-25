@@ -30,10 +30,6 @@ export class ReadProductComponent implements OnInit {
     })
   }
 
-  editar(id: number) {
-    console.log(`Editar item ${id}`);
-  }
-
   redirectToCreate(){
     this.route.navigate(['/product/create'])
   }

@@ -1,13 +1,8 @@
 {
   "produto": [
     {
-      "nome": "Badadinha do Zé",
-      "preco": "6,50",
-      "id": 22
-    },
-    {
-      "nome": "BaladinhadoPeliza",
-      "preco": "8,50",
+      "nome": "Rogério Peli",
+      "preco": "2500,00",
       "id": 23
     },
     {
@@ -24,6 +19,21 @@
       "nome": "BaladinhadoPeliza",
       "preco": "5,50",
       "id": 26
+    },
+    {
+      "nome": "Badadinha do Zé",
+      "preco": "5.50",
+      "id": 27
+    },
+    {
+      "nome": "BaladinhadoPeliza",
+      "preco": "9000",
+      "id": 28
+    },
+    {
+      "nome": "Badadinha do Zé",
+      "preco": "10000",
+      "id": 29
     }
   ]
 }
