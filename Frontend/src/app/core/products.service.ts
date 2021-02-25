@@ -3,7 +3,6 @@ import { MatSnackBar } from "@angular/material/snack-bar";
 import { HttpClient } from '@angular/common/http';
 import { Product } from './../model/product';
 import { Observable, EMPTY } from 'rxjs';
-import { map, catchError } from "rxjs/operators";
 
 
 @Injectable({
@@ -31,7 +30,7 @@ export class ProductsService {
     return this.http.delete<Product>(`${this.URL}/${id}`)
   }
 
-  update(product: Product): Observable<Product> {
+  updProduct(product: Product): Observable<Product> {
     const url = `${this.URL}/${product.id}`;
     return this.http.put<Product>(url, product);
   }
